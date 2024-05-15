@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "next dev"
+		},
+		{
+			"type": "npm",
+			"script": "prisma:studio",
+			"problemMatcher": [],
+			"label": "npm: prisma:studio",
+			"detail": "prisma studio"
+		},
+		{
+			"type": "npm",
+			"script": "prisma:dbpush",
+			"problemMatcher": [],
+			"label": "npm: prisma:dbpush",
+			"detail": "prisma db push"
+		},
+		{
+			"type": "npm",
+			"script": "prisma:generate",
+			"problemMatcher": [],
+			"label": "npm: prisma:generate",
+			"detail": "prisma generate"
+		},
+		{
+			"type": "npm",
+			"script": "prisma:migrate",
+			"problemMatcher": [],
+			"label": "npm: prisma:migrate",
+			"detail": "prisma migrate dev"
+		},
+		{
+			"type": "npm",
+			"script": "prisma:dbseed",
+			"problemMatcher": [],
+			"label": "npm: prisma:dbseed",
+			"detail": "prisma db seed"
+		}
+	]
+}
